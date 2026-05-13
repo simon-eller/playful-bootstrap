@@ -1,0 +1,11 @@
+{
+  "name": "playful-bootstrap",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sass scss/custom.scss dist/bootstrap.min.css --style=compressed --no-source-map --load-path=node_modules"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.77.0"
+  }
+}

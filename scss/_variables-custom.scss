@@ -1,0 +1,126 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+// scss-docs-start gray-color-variables
+$white: #fff;
+$black: #1e304e;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start theme-color-variables
+$primary:    #edf5ff;
+$info:    #edf5ff;
+$warning: #feefd5;
+$danger:  #ffe2de;
+$success: #d5e8de;
+
+$text-primary:    #1C3D66;
+$text-info:    #1C3D66;
+$text-warning: #E6AF00;
+$text-danger:  #BA2B1F;
+$text-success: #1C6648;
+// scss-docs-end theme-color-variables
+
+$theme-colors: (
+    "primary":   $primary,
+    "info":      $info,
+    "warning":   $warning,
+    "danger":    $danger,
+    "success":   $success,
+);
+
+$info-bg-subtle:    #edf5ff;
+$warning-bg-subtle: #feefd5;
+$danger-bg-subtle:  #ffe2de;
+$success-bg-subtle: #d5e8de;
+
+$info-text-emphasis:    #1C3D66;
+$warning-text-emphasis: #E6AF00;
+$danger-text-emphasis:  #BA2B1F;
+$success-text-emphasis: #1C6648;
+
+$body-color: #1e304e;
+
+// Typography
+$font-family-sans-serif: "Inter", system-ui, sans-serif;
+$headings-font-family: "Capriola", system-ui, sans-serif;
+$headings-font-weight: 400;
+$headings-color: $body-color;
+
+$font-size-base: 1rem;
+$line-height-base: 1.65;
+
+// Components
+$box-shadow: none;
+$box-shadow-sm: none;
+$box-shadow-lg: none;
+$box-shadow-inset: none;
+
+$focus-ring-box-shadow: none;
+$focus-ring-width: 2px;
+$focus-ring-opacity: 1;
+
+// scss-docs-start border-variables
+$border-width: 2px;
+$border-color: $body-color;
+// scss-docs-end border-variables
+
+// scss-docs-start border-radius-variables
+$border-radius:    0.5rem;
+$border-radius-sm: 0.35rem;
+$border-radius-lg: 0.75rem;
+$border-radius-xl: 1rem;
+$border-radius-pill: 50rem;
+// scss-docs-end border-radius-variables
+
+// Alerts
+$alert-bg-scale: 0%;
+$alert-border-scale: -10%;
+$alert-color-scale: 0%;
+
+// Buttons
+$btn-padding-y: 0.5rem;
+$btn-padding-x: 1.25rem;
+$btn-font-weight: 600;
+
+$btn-font-family: "Capriola";
+
+$btn-active-box-shadow: none;
+$btn-box-shadow: none;
+
+$btn-hover-bg-shade-amount: -20%;
+$btn-active-bg-shade-amount: 10%;
+
+// Buttons + Forms
+$input-border-color: #c8d8ea;
+$input-focus-border-color: $info;
+
+$input-btn-focus-box-shadow: none;
+$input-box-shadow: none;
+$input-focus-box-shadow: none;
+
+// Cards
+$card-box-shadow: none;
+
+// Dropdowns
+$dropdown-box-shadow: none;
+
+// Modals
+$modal-content-box-shadow-xs: none;
+$modal-content-box-shadow-sm-up: none;
+
+// Navbar
+$navbar-box-shadow: none;
+$nav-link-color: $body-color;
+$navbar-light-color: $body-color;
+$navbar-light-hover-color: lighten($body-color, 15%);
+$navbar-light-active-color: $body-color;
+
+// Popovers
+$popover-box-shadow: none;
+
+// Toasts
+$toast-box-shadow: none;

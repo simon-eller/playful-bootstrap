@@ -1,0 +1,50 @@
+.display-1, .display-2, .display-3,
+.display-4, .display-5, .display-6 {
+  font-family: $headings-font-family;
+}
+
+.alert {
+  text-shadow: none;
+  box-shadow:  none;
+}
+
+.btn {
+  transition: background-color .2s ease, border-color .2s ease, color .2s ease;
+  box-shadow: none !important;
+
+  &:active {
+    transform: none;
+  }
+}
+
+.card {
+  box-shadow: none !important;
+}
+
+.modal-content {
+  box-shadow: none !important;
+}
+
+.navbar {
+  box-shadow: none !important;
+}
+
+.text-primary {
+  color: $text-primary !important;
+}
+
+.text-info {
+  color: $text-info !important;
+}
+
+.text-warning {
+  color: $text-warning !important;
+}
+
+.text-danger {
+  color: $text-danger !important;
+}
+
+.text-success {
+  color: $text-success !important;
+}
